@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang ="en" xmlns="https://www.w3.org/1999/xhtml">
+<head>
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<meta http-equiv="X-UA Compatible" content="ie-edge">
+	<link href="./styles.css" type="text/css" rel="style sheet">
+	<link href="styles.css" rel="stylesheet" type="text/css" media="screen">
+<title>CH26 Exercise</title>
+	</head>
+	
+<body>
+		
+<h1>Rocket Simulation</h1>
+	
+<form action="https://handlers.education.launchcode.org/request-parrot" method="POST">
+	<!--Name Label-->
+	<label for="tname">Test Name:
+		<input type="text" name= "tname">
+    </label>
+	<!--Name Label-->
+		
+	<!--Date Label-->
+	<label for="testDate">Test Date:
+		<input type="date" name= "testDate">
+    </label>
+	<!--Date Label-->
+		
+	<!--Type Labels-->
+	<label>Rocket Type:
+		<select name="Rocket Type">
+			<option value ="Brant">Brant</option>	
+			<option value= Lynx:>Lynx</option>
+			<option value= Orion:> Orion</option>
+			<option value= Terrier:>Terrier</option>
+	    </select>
+    </label>
+	<!--Type Labels-->
+		
+	<!--Num Label-->
+	<label for="boosterCount">Number of Rocket Boosters :
+		<input type="number" min="0" max= "10"name= "boosterCount">
+    </label>
+	<!--Num Label-->
+		
+	<!--Radio Labels-->
+	<label for="windRating">No Wind
+		<input type="radio" value="0"  name= "windRating">
+    </label>
+	<label for="windRating">Mild
+		<input type="radio" value="10"  name= "windRating">
+    </label>
+	<label for="windRating">Strong
+		<input type="radio" value="20"  name= "windRating">	
+    </label>
+	<!--Radio Labels-->
+		
+	<!--Checkox Label-->
+	<label for="production servers">Use Production Servers
+	  <input type="checkbox" name= "productions servers">
+    </label>		  
+	<!--Checkox Label-->
+		
+	<button>Run Simulation</button>
+</form>
+	
+</body>
+
+</html>

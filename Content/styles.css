@@ -1,0 +1,26 @@
+body{
+text-align: center;
+}
+
+form label{
+	display: flex;
+	left: 
+}
+
+form button{
+display: flex;
+justify-content: space-around;
+margin-top:10px;
+font-size: 1vw;
+background-color: green;
+border-radius: 10px;
+border-color: black;
+}
+
+form button:hover{
+box-shadow: 1px 1px 10px red;
+font-size: 1.1vw;
+}
+
+
+
